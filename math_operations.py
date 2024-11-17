@@ -2,6 +2,9 @@
 
 def divide_numbers(a, b):
     """Divides two numbers and returns the result."""
+    if b == 0:
+        print("Cannot divide by zero")
+        return
     return a / b  # Potential division by zero error
 
 if __name__ == "__main__":
